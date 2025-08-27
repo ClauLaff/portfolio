@@ -10,7 +10,7 @@
         ],
         "description" : "Page web statique",
         "video" : "/booki.mp4",
-        "gitHubLink" : ""
+        "gitHubLink" : "https://github.com/ClauLaff/booki"
     },
     {   
         "id": "sophieBluel",
@@ -24,7 +24,7 @@
         ],
         "description" : "Portfolio dynamique avec authentification",
         "video" : "/sophieBluel.mp4",
-        "gitHubLink" : ""
+        "gitHubLink" : "https://github.com/ClauLaff/FrontEnd"
     },
     {   
         "id": "Kasa",
@@ -37,7 +37,7 @@
         ],
         "description" : "Site web dynamique SPA",
         "video" : "/kasa.mp4",
-        "gitHubLink" : ""  
+        "gitHubLink" : "https://github.com/ClauLaff/projet5"  
     },
     {   
         "id": "grimoire",
@@ -50,7 +50,7 @@
         ],
         "description" : "Base de données et API",
         "video" : "/grimoir.mp4",
-        "gitHubLink" : "" 
+        "gitHubLink" : "https://github.com/ClauLaff/backend" 
     }
  
 ]

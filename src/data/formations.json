@@ -1,0 +1,42 @@
+[
+    {
+        "id":"openClassrooms",
+        "title":"Développeur web",
+        "degree":"niveau 5 (bac +2)",
+        "school":"OpenClassrooms",
+        "year":"Janvier 2025 à août 2025",
+        "description":"Formation à distance à plein temps. Création d'applications web dynamiques, responsive, sécurisées et optimisées.",
+        "tags":[
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Node.js",
+            "React.js",
+            "API REST Express",
+            "Git & GitHub",
+            "SEO",
+            "Gestion de projet Agile",
+            " IDE VSCode"
+        ]
+    },
+    {
+        "id":"cnam",
+        "title":"Concepteur développeur de solutions informatiques",
+        "degree":"niveau 5 (bac +2)",
+        "school":"Cnam de Paris",
+        "year":"2022-2024",
+        "description":"Formation à distance en cours du soir. J'ai validé environ 80% des UEs du diplôme. Bases de la programmation orientée objet avec Java, création d'applications Java, modélisation UML, bases de données SQL, culture scientifique.",
+        "tags": [
+            "Java", 
+            "Tests JUnit", 
+            "SQL",
+            "Bibliothèqes Java",
+            "Architecture MVC",
+            "Méthode Merise & UML",
+            "Architecture des machines",
+            "Graphes",
+            "Mathématiques",
+            "IDE Eclipse"
+        ]
+    }
+]

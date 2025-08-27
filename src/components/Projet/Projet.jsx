@@ -19,7 +19,7 @@ function Projet (props){
                     Votre navigateur ne supporte pas la lecture vidéo.
                 </video>
             </div>
-            <p className="gitHubLink">{props.gitHubLink}</p>
+            <a className="gitHubLink" href={props.gitHubLink} target="_blank" rel="noopener noreferrer">Repository GitHub</a>
         </div>
 
     )
