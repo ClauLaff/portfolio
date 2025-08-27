@@ -1,0 +1,17 @@
+.home{
+    display:flex;
+    flex-direction:column;
+}
+.about{
+    display:flex;
+    margin-top: 50px;
+}
+.photo{
+    width:34%;
+    text-align: center;
+}
+.description{
+    width:64%;
+    align-self: center;
+    
+}

@@ -1,0 +1,57 @@
+[
+    {   
+        "id" : "booki",
+        "cover" : "/src/assets/booki.jpg",
+        "title" : "Booki",
+        "subtitle" : "Projet CSS et HTML",
+        "tags" : [
+            "CSS",
+            "HTML"
+        ],
+        "description" : "Page web statique",
+        "video" : "/booki.mp4",
+        "gitHubLink" : ""
+    },
+    {   
+        "id": "sophieBluel",
+        "cover" : "/src/assets/sophieBluel.jpg",
+        "title" : "Sophie Bluel",
+        "subtitle" : "Projet Javascript",
+        "tags" : [
+            "JS",
+            "CSS",
+            "HTML"
+        ],
+        "description" : "Portfolio dynamique avec authentification",
+        "video" : "/sophieBluel.mp4",
+        "gitHubLink" : ""
+    },
+    {   
+        "id": "Kasa",
+        "cover" : "/src/assets/kasa.jpg",
+        "title" : "Kasa",
+        "subtitle" : "Projet React",
+         "tags" : [
+            "React",
+            "Sass"
+        ],
+        "description" : "Site web dynamique SPA",
+        "video" : "/kasa.mp4",
+        "gitHubLink" : ""  
+    },
+    {   
+        "id": "grimoire",
+        "cover" : "/src/assets/grimoir.jpg",
+        "title" : "Mon Vieux Grimoir",
+        "subtitle" : "Projet backend",
+        "tags" : [
+            "API REST",
+            "NoSQL"
+        ],
+        "description" : "Base de données et API",
+        "video" : "/grimoir.mp4",
+        "gitHubLink" : "" 
+    }
+ 
+]
+    

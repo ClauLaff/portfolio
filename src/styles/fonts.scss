@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'MonsieurLaDoulaise';
+  src: url('./fonts/MonsieurLaDoulaise-Regular.ttf') format('truetype');
+}
+
+@mixin font-project{
+    font-size: 18px;
+    font-weight: 700;
+}

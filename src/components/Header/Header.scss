@@ -1,0 +1,23 @@
+@import '/src/styles/fonts.scss';
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo{
+    text-decoration : none;
+    color : rgb(3, 3, 134);
+    font-family : 'MonsieurLaDoulaise';
+    font-size: 75px;
+}
+
+.languages{
+    display:flex;
+    gap:15px;
+}
+button{
+    height: 100px;
+    background-color: white;
+    border:none;
+}

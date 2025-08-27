@@ -1,0 +1,56 @@
+@import '../../styles/colors.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/responsive.scss';
+
+.portfolio{
+   
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 35px;
+    justify-items:center;
+    padding:35px;
+    margin-top: 35px;
+    border-radius: 25px;
+   
+
+    .project{
+        width:91%;
+        height:340px;
+        border-radius: 10px;
+        display:flex;
+        flex-direction:column;
+        justify-content: end;
+        padding:15px;
+        background-size:cover;
+
+       .project-title{
+            display:flex;
+            flex-direction: column-reverse;
+            height:15%;
+             @include font-project;
+        }
+    }  
+}
+
+@media (max-width: $tablet) {
+    .portfolio{
+        grid-template-columns:repeat(2, 1fr);
+        .project{
+            height:255px;
+            .project-title{
+                height:30%;
+            }
+        }
+    }
+}
+ @media (max-width : $mobile){
+    .portfolio{
+         grid-template-columns: repeat(1, 1fr);
+         padding:0px;
+         .project{
+            .project-title{
+                width:50%;
+            }
+         }
+    }
+}
