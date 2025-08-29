@@ -7,6 +7,7 @@ import Header from './components/Header/Header.jsx'
 import Projets from './pages/Projets/Projets.jsx'
 import Footer from './components/Footer/Footer.jsx'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

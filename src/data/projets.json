@@ -1,7 +1,7 @@
 [
     {   
         "id" : "booki",
-        "cover" : "/src/assets/booki.jpg",
+        "cover" : "/booki.jpg",
         "title" : "Booki",
         "subtitle" : "Projet CSS et HTML",
         "tags" : [
@@ -14,7 +14,7 @@
     },
     {   
         "id": "sophieBluel",
-        "cover" : "/src/assets/sophieBluel.jpg",
+        "cover" : "/sophieBluel.jpg",
         "title" : "Sophie Bluel",
         "subtitle" : "Projet Javascript",
         "tags" : [
@@ -28,7 +28,7 @@
     },
     {   
         "id": "Kasa",
-        "cover" : "/src/assets/kasa.jpg",
+        "cover" : "/kasa.jpg",
         "title" : "Kasa",
         "subtitle" : "Projet React",
          "tags" : [
@@ -41,7 +41,7 @@
     },
     {   
         "id": "grimoire",
-        "cover" : "/src/assets/grimoir.jpg",
+        "cover" : "/grimoir.jpg",
         "title" : "Mon Vieux Grimoir",
         "subtitle" : "Projet backend",
         "tags" : [
