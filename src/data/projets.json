@@ -1,7 +1,7 @@
 [
     {   
         "id" : "booki",
-        "cover" : "/booki.jpg",
+        "cover" : "/portfolio/booki.jpg",
         "title" : "Booki",
         "subtitle" : "Projet CSS et HTML",
         "tags" : [
@@ -9,12 +9,12 @@
             "HTML"
         ],
         "description" : "Page web statique",
-        "video" : "/booki.mp4",
+        "video" : "/portfolio/booki.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/booki"
     },
     {   
         "id": "sophieBluel",
-        "cover" : "/sophieBluel.jpg",
+        "cover" : "/portfolio/sophieBluel.jpg",
         "title" : "Sophie Bluel",
         "subtitle" : "Projet Javascript",
         "tags" : [
@@ -23,12 +23,12 @@
             "HTML"
         ],
         "description" : "Portfolio dynamique avec authentification",
-        "video" : "/sophieBluel.mp4",
+        "video" : "/portfolio/sophieBluel.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/FrontEnd"
     },
     {   
         "id": "Kasa",
-        "cover" : "/kasa.jpg",
+        "cover" : "/portfolio/kasa.jpg",
         "title" : "Kasa",
         "subtitle" : "Projet React",
          "tags" : [
@@ -36,20 +36,20 @@
             "Sass"
         ],
         "description" : "Site web dynamique SPA",
-        "video" : "/kasa.mp4",
+        "video" : "/portfolio/kasa.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/projet5"  
     },
     {   
         "id": "grimoire",
-        "cover" : "/grimoir.jpg",
-        "title" : "Mon Vieux Grimoir",
+        "cover" : "/portfolio/grimoire.jpg",
+        "title" : "Mon Vieux Grimoire",
         "subtitle" : "Projet backend",
         "tags" : [
             "API REST",
             "NoSQL"
         ],
         "description" : "Base de données et API",
-        "video" : "/grimoir.mp4",
+        "video" : "/portfolio/grimoire.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/backend" 
     }
  

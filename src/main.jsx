@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Header/>
       <Routes>
         <Route path = "/" element = {<Home/>}/>
