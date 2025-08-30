@@ -13,7 +13,7 @@
     border-radius: 25px;
    
 
-    .project{
+    .project-link{
         width:91%;
         height:340px;
         border-radius: 10px;
@@ -21,13 +21,26 @@
         flex-direction:column;
         justify-content: end;
         padding:15px;
-        background-size:cover;
+        text-decoration: none;
+       
+        .project{
+            width:91%;
+            height:340px;
+            border-radius: 10px;
+            display:flex;
+            flex-direction:column;
+            justify-content: end;
+            padding:15px;
+            background-size:cover;
+            }
 
        .project-title{
             display:flex;
             flex-direction: column-reverse;
             height:15%;
-            @include font-project;
+            color:white;
+            font-size: 43px;
+            margin:0px;
         }
     }  
 }

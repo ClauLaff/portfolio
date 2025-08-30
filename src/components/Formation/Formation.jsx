@@ -6,7 +6,7 @@ function Formation(props){
         <div>
            
             <div className="formation">
-               <p>{props.title}</p>
+               <p className="formation-title">{props.title}</p>
                <p>{props.degree}</p>
                <p>{props.school}</p>
                <p>{props.year}</p>

@@ -1,5 +1,6 @@
 @import '../../styles/responsive.scss';
 @import '../../styles/fonts.scss';
+@import '../../styles/colors.scss';
 
 .home{
     display:flex;
@@ -9,9 +10,9 @@
 .about{
     display:flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: medium;
-    gap:10px;
+    gap:20px;
     .photo{
         object-fit: cover;
         width:25%;
@@ -21,10 +22,34 @@
     .description{
         width:64%;
         align-self: center;
-        margin:40px;
         font-size: 19px;
-        
+        .about-title{
+            font-family: 'AcademiqueMaj';
+            justify-self: center;
+            font-size: 43px;
+            margin-top:0px;
+            margin-bottom:20px;
+            color:$BleuEncre;
+        }
     }
+}
+.training-title{
+    font-family: 'AcademiqueMaj';
+    font-size:43px;
+    font-weight: 100;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:$BleuEncre;
+}
+.portfolio-title{
+    font-family: 'AcademiqueMaj';
+    font-size:43px;
+    font-weight: 100;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:20px;
+    color:$BleuEncre;
 }
 
 

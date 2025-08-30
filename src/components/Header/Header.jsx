@@ -7,6 +7,10 @@ function Header(props) {
   return (
     <div className="header">
       <NavLink to="/" className="logo">C</NavLink>
+      <div className="title">
+        <p className="name">Claudia Laffargue</p>
+        <p className="profession">Développeur Web</p>
+      </div>
       <div className = "languages"> 
             <button onClick={()=>setLanguage('fr')}><img src="/portfolio/france.webp" alt="français"/></button>
             <button onClick={()=>setLanguage('eng')}><img src="/portfolio/britain.webp" alt="english"/></button>

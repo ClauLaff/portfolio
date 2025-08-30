@@ -1,36 +1,83 @@
 @import '../../styles/fonts.scss';
 @import '../../styles/colors.scss';
+@import '../../styles/responsive.scss';
 
 .header{
     display:flex;
     justify-content: space-between;
-    height: 100px;
-}
-.logo{
-    text-decoration : none;
-    color : $BleuEncre;
-    font-family : 'Francaise';
-    font-size: 75px;
-}
-.nom{
-    font-family : 'Francaise';
-    font-size: 43px;
-    align-self: center;
-    color : $BleuEncre;
-}
-.profession{
-    font-family: 'Academique';
-    font-size:43px;
-    align-self: center;
-    color : $BleuEncre;
+    height: 150px;
+    .logo{
+        text-decoration : none;
+        color : $BleuEncre;
+        font-family : 'Francaise';
+        font-size: 100px;
+     }
+    .title{
+            display:flex;
+            flex-direction:column;
+           height:150px;
+           align-items:center;
+           justify-items: center;
+           font-size:43px;
+          
+        .name{
+            font-family :'Francaise';
+            color : $BleuEncre;
+            margin:0px;
+            padding:0px;
+        }
+        .profession{
+            font-family: 'AcademiqueMaj';
+            color : $BleuEncre;
+            margin:0px;
+            padding:0px;
+        }
+    }
+    .languages{
+        display:flex;
+        gap:10px;
+        button{
+            background-color: white;
+            border:none;
+            align-self: center;
+        }
+    }   
 }
 
-.languages{
-    display:flex;
-    gap:15px;
+@media(max-width:$tablet){
+    .header{
+        height:100px;
+        .logo{
+            font-size: 48px;
+        }
+        .title{
+           font-size:34px;
+           height:100px;
+        }
+        .languages{
+            flex-direction:column;
+            gap:0px;
+            button{
+                margin:0px;
+            }
+        }
+    }
 }
-button{
-    height: 100px;
-    background-color: white;
-    border:none;
+@media(max-width:$mobile){
+    .header{
+        height:80px;
+        .logo{
+            font-size:43px;
+        }
+        .title{
+            font-size:23px;
+        }
+        .languages{
+            button{
+                height:40px;
+            }
+        }
+    }
 }
+
+

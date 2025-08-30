@@ -6,9 +6,11 @@ function Portfolio(){
     return(
         <div className ="portfolio">
             {projets.map((projet)=>(
-               <div className="project" key={projet.id} style={{backgroundImage:`url(${projet.cover})`}}>
-                    <Link className="project-title" to={`/Projets/${projet.id}`}>{projet.title}</Link>
-                </div> 
+               <Link className="project-link" key={projet.id} to={`/Projets/${projet.id}`}>
+                <div className="project" style={{backgroundImage:`url(${projet.cover})`}}>
+                    <p className="project-title">{projet.title}</p>
+                </div>
+            </Link>
             ))}
             
         </div>
