@@ -1,3 +1,6 @@
+@import '../../styles/responsive.scss';
+@import '../../styles/fonts.scss';
+
 .home{
     display:flex;
     flex-direction:column;
@@ -5,16 +8,47 @@
 }
 .about{
     display:flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-top: 50px;
     font-size: medium;
+    gap:10px;
+    .photo{
+        object-fit: cover;
+        width:25%;
+        text-align: center;
+        margin:40px;
+    }
+    .description{
+        width:64%;
+        align-self: center;
+        margin:40px;
+        font-size: 19px;
+        
+    }
 }
-.photo{
-    width:34%;
-    text-align: center;
+
+
+@media(max-width:$tablet){
+    .about{
+        text-align: center;
+       flex-direction: column;
+       .photo{
+        width:34%;
+        align-self:center;
+        margin:10px;
+       }
+       .description{
+        margin:10px;
+       }
+    }
 }
-.description{
-    width:64%;
-    align-self: center;
-    
+@media(max-width:$mobile){
+    .about{
+        .photo{
+            width:43%;
+        }
+        .description{
+            margin:15px;
+        }
+    }
 }

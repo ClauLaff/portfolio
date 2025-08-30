@@ -3,8 +3,12 @@
   src: url('./fonts/MonsieurLaDoulaise-Regular.ttf') format('truetype');
 }
 @font-face{
-  font-family: 'Academique';
+  font-family: 'AcademiqueMaj';
   src: url('./fonts/CormorantSC-Light.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'AcademiqueMin';
+  src:url('./fonts/Cormorant-VariableFont_wght.ttf') format('truetype');
 }
 
 @mixin font-project{
