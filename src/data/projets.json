@@ -1,54 +1,71 @@
 [
     {   
         "id" : "booki",
-        "cover" : "/portfolio/booki.jpg",
+        "cover" : "/portfolio/booki.webp",
         "title" : "Booki",
-        "subtitle" : "Projet CSS et HTML",
+        "subtitle" : "Page web statique",
         "tags" : [
             "CSS",
-            "HTML"
+            "HTML",
+            "Figma",
+            "Responsive design"
         ],
-        "description" : "Page web statique",
+        "description" : "Intégration de la page d'accueil d'une agence de voyage conformément à la maquette et aux spécifications techniques. \n Les cards des logements et leur contenu devaient rester bien alignés et s'adapter aux différentes tailles d'écran sans débordement de texte ni déformation des images. ",
         "video" : "/portfolio/booki.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/booki"
     },
     {   
         "id": "sophieBluel",
-        "cover" : "/portfolio/sophieBluel.jpg",
+        "cover" : "/portfolio/sophieBluel.webp",
         "title" : "Sophie Bluel",
         "subtitle" : "Projet Javascript",
         "tags" : [
             "JS",
             "CSS",
-            "HTML"
+            "HTML",
+            "Node.js",
+            "npm",
+            "Appels API"
         ],
-        "description" : "Portfolio dynamique avec authentification",
+        "description" : "Réalisation d'une pages web dynamiques avec Javascript, pour le portfolio d'un architecte d'intérieur. \n 1/Affichage des travaux avec filtres par catégories. \n 2/Intégration de la page de connexion pour l'authentification administrateur avec gestion de token. \n 3/Création d'une modale \"from scratch\" entièrement accessible, avec deux vues, permettant de supprimer et d'ajouter de nouveaux travaux. \n Interactivité des pages avec les EventListener et les fonoction anonymes. \n Protocoles de communication client/serveur en JS avec fetch(), les promesses. \n Les formats d'information : structure des requêtes API (charge utiles, formData), format binaire, json ou chaînes de caractères et conversions entre ces formats (.json(), JSON.stringify, JSON.parse). \n Bonnes pratiques pour la performance et la sécurité des applications : bonne gestion des ressources, utiliser display au lieu de recréer des éléments, ne pas multiplier les appels API , ne pas encombrer le local storage, éviter inner HTML.",
         "video" : "/portfolio/sophieBluel.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/FrontEnd"
     },
     {   
         "id": "Kasa",
-        "cover" : "/portfolio/kasa.jpg",
+        "cover" : "/portfolio/kasa.webp",
         "title" : "Kasa",
         "subtitle" : "Projet React",
          "tags" : [
             "React",
-            "Sass"
+            "Vite",
+            "Sass",
+            "SPA",
+            "Responsive design"
         ],
-        "description" : "Site web dynamique SPA",
+        "description" : "Création d'un site web dynamique et responsive pour une agence immobilière avec la bibliothèque JS React. \n Installation de l'application React avec Vite. \n Utilisation de la syntaxe Sass pour le code CSS. \n Navigation suivant le principe du Single Page Application avec création d'une page d'erreur 404. \n Adaptation visuelle à tout type d'écran conformément à une maquette et selon le principe du responsive design, vérification avec les devTools. \n Utilisation de la logique de composants réutilisatbles et des techniques offertes par React : props pour la réutilisation de composants configurés, useState pour des affichages conditionnels, map pour l'itération de création d'éléments, transition pour la création d'animations, useEffect pour les effets de bord, react router pour la navigation SPA ainsi que useParams pour le paramétrage d'url. " ,
         "video" : "/portfolio/kasa.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/projet5"  
     },
     {   
         "id": "grimoire",
-        "cover" : "/portfolio/grimoire.jpg",
+        "cover" : "/portfolio/grimoire.webp",
         "title" : "Mon Vieux Grimoire",
         "subtitle" : "Projet backend",
         "tags" : [
             "API REST",
-            "NoSQL"
+            "NoSQL",
+            "Express",
+            "Opérations CRUD",
+            "Système d'authentification",
+            "Création de compte utilisateur",
+            "Gestion de session utilisateur",
+            "Contrôle des authorisations", 
+            "Cryptage de mot de passe",
+            "Contrôle des entrées utilisateur",
+            "Fichier de variables d'environnement"
         ],
-        "description" : "Base de données et API",
+        "description" : "Création du backend sécurisé d'un site de notation de livres. \n Création d'un serveur Express. \n Connexion à une base données NoSQL. \n Création d'une API REST et mise en place des opérations CRUD avec définition d'un schéma de données. \n Mise en place d'un système d'authentification. \n Création de compte utilisateur et ouverture de session. \n Ajout, modificatio et création de livre avec contrôle des entrées utilisateur, remontée des erreurs serveur et gestion des images \n Notation de livre. \n Logique de routage : création des endpoints de l'API et routage avec Express router. \n Logique métier : créations des controllers définissant les midellewares de réponses à requêtes avec contrôle des entrées utilisateur et contrôle des authorisations.  \n Système d'autentification : création de compte utilisateur avec cryptage de mot de passe, session utilisateur avec création de token, et middleware d'authentification avec gestion de token. \n Aspects de sécurité : création d'un fichier .env de variables d'environnment.",
         "video" : "/portfolio/grimoire.mp4",
         "gitHubLink" : "https://github.com/ClauLaff/backend" 
     }

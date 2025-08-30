@@ -1,6 +1,10 @@
 @font-face {
-  font-family: 'MonsieurLaDoulaise';
+  font-family: 'Francaise';
   src: url('./fonts/MonsieurLaDoulaise-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Academique';
+  src: url('./fonts/CormorantSC-Light.ttf') format('truetype');
 }
 
 @mixin font-project{

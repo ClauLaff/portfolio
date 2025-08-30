@@ -1,4 +1,5 @@
-@import '/src/styles/fonts.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/colors.scss';
 
 .header{
     display:flex;
@@ -7,9 +8,21 @@
 }
 .logo{
     text-decoration : none;
-    color : rgb(3, 3, 134);
-    font-family : 'MonsieurLaDoulaise';
+    color : $BleuEncre;
+    font-family : 'Francaise';
     font-size: 75px;
+}
+.nom{
+    font-family : 'Francaise';
+    font-size: 43px;
+    align-self: center;
+    color : $BleuEncre;
+}
+.profession{
+    font-family: 'Academique';
+    font-size:43px;
+    align-self: center;
+    color : $BleuEncre;
 }
 
 .languages{
