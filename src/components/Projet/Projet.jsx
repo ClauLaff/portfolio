@@ -13,9 +13,9 @@ function Projet (props){
                 ))}
             </div>
             <p className="description">{props.description}</p>
-            <div className = "video">
-                <video controls width = "650">
-                    <source src={props.video} type="video/mp4"/>
+            <div >
+                <video className="video" controls >
+                    <source  src={props.video} type="video/mp4"/>
                     Votre navigateur ne supporte pas la lecture vidéo.
                 </video>
             </div>
