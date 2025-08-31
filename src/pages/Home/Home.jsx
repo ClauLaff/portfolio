@@ -17,7 +17,7 @@ function  Home(props){
               <p className="aboutDescription">En reconversion professionelle, j'ai acquis de solides bases en programmation web et je continue de découvrir ce métier avec grand intérêt. <br/>
                Méticuleuse et appliquée j'aime le travail bien fait. Ma grande passion: apprendre. <br/>
                D'un esprit à la fois scientifique et artiste, j'ai débuté par l'étude du piano au conservatoire, puis j'ai poursuivi des études de philosophie des sciences à la Sorbonne, avant d'entreprendre plusieurs formations en informatique. <br/>
-               Je suis par ailleurs devenue bilingue en anglais de part de nombreux séjours en Angleterre. <br/>
+               Je suis par ailleurs devenue bilingue en anglais de par de nombreux séjours en Angleterre. <br/>
                Je souhaite ainsi poursuivre une carrière en informatique tout en continuant à me former et monter en compétences. 
               </p>
               </div>
